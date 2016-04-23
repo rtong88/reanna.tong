@@ -1,0 +1,218 @@
+a {text-decoration:none;}
+
+.navigation {font-size:12px;
+    font-family: Arial;
+    text-align:center;
+    color:white;
+    background-color:#4D3D4D;
+}
+
+.navigation a{
+    color:white;
+    }
+
+.title{
+    font-family:'Courgette', cursive;
+    font-size:30px;
+    color:darkgray;
+    text-align:center;
+    margin-bottom: 10px;
+}
+
+
+/*play with fluidity of sidebar*/
+
+.side {
+    width:20%;
+    height:1000px;
+    float:left;
+    clear:both;
+    padding:10px;
+    background-color:#729994;
+    color:white;
+    font-family: 'Courgette', cursive;
+    font-size:18px;
+}
+
+.header h1 {font-size: 40px;
+    font-family: Impact;
+    text-align:center;}
+
+strong > li {display: inline-block;
+    margin:20px 26px;
+    font-size:16px;
+}
+
+/*create separate styling for pictures not in blog entry*/
+
+.img-wide img:hover {
+    opacity: 1.0;
+}
+
+.img-wide {
+    text-align:center;
+}
+
+.img-wide img {
+    text-align:center;
+    width:250px;
+    height:150px;
+    opacity:.6;
+    border-radius:15px;
+}
+
+.img-long img:hover {
+    opacity: 1.0;
+}
+
+.img-long {
+    text-align:center;
+}
+
+.img-long img {
+    height:220px;
+    width:160px;
+    opacity:.6;
+    border-radius:15px;
+}
+
+.img-square img:hover {
+    opacity: 1.0;
+}
+
+.img-square {
+    text-align:center;
+}
+
+.img-square img {
+    height:180px;
+    width:180px;
+    opacity:.6;
+    border-radius:15px;
+    }
+
+/*play with fluidity of size of Entry container*/
+/*center images in entries*/
+
+.entry {
+    float:right;    
+    font-size:14px;
+    font-family: Arial;
+    text-align:left;
+    border:2px solid #729994;
+    background-color:lightgray;
+    padding:1px 10px;
+    margin-bottom:10px;
+    width:74%;
+    border-radius:15px;
+    color:darkslategray;
+}
+
+.entry > a {
+    padding:10px;
+    margin-bottom:30px;}
+
+.entry > ul {
+    font-family:Arial;
+    font-size:14px;
+    }
+
+/*width of container that contains sidebar and entries falls here*/
+
+.page {font-family:Arial;
+    font-size:30px;
+    color:gray;
+    margin-left:10px;
+    clear:right;
+    margin:auto;
+    max-width:1200px;
+}
+
+a {text-decoration:none;
+    color:white;}
+
+a:visited {color:gray;}
+
+a:hover {
+    color:#729994;
+    font-weight:bold;
+}
+
+.entry h3 {font-family:Arial;
+    color:white;
+    background-color:#4D3D4D;
+     padding:5px;
+}
+
+.entry h4 {text-align:right;
+    font-weight:bold;
+}
+
+img {text-align:center;}
+
+#seating-project-long img{
+    height:220px;
+    width:160px;
+    border:2px solid #729994;
+}
+
+#seating-project-wide img{
+    height:100px;
+    width:150px;
+    border:2px solid #729994;
+}
+
+#thesis-map img{
+    height:220px;
+    width:160px;
+    border:2px solid #729994;
+}
+
+#thesis-surveys img{
+    height:200px;
+    width:150px;
+    border:2px solid #729994;
+}
+
+#resume {
+    text-align:center;
+}
+
+#resume img{
+    height:500px;
+    width:400px;
+    border-radius:15px;
+}
+
+#vacant-lots-map img{
+    height:300px;
+    width:225px;
+
+}
+
+#vacant-lot img{
+    height:200px;
+    width:300px;
+}
+
+#brownsville-mural img{
+     height:300px;
+     width:450px;
+     text-align:center;
+     border-radius:15px;
+}
+
+
+.icons img {
+    height:25px;
+    width:25px;
+}
+
+.footer {
+    font-size:12px;
+    color:darkgray;
+    text-align:center;
+    clear:both;
+    font-family:sans-serif;
+    font-weight:bold;
+}
